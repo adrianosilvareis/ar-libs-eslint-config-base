@@ -35,6 +35,13 @@
           { "pattern": "#/**", "group": "unknown" }
         ]
       }
+    ],
+    "import/extensions": [
+      "error",
+      "never",
+      {
+        "json": "ignorePackages"
+      }
     ]
   }
 }

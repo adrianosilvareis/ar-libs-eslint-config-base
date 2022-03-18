@@ -31,8 +31,8 @@
         "newlines-between": "always",
         "groups": ["builtin", "external", "internal", "unknown"],
         "pathGroups": [
-          { "pattern": "#/**", "group": "internal" },
-          { "pattern": "!tests/**", "group": "unknown" }
+          { "pattern": "@/**", "group": "internal" },
+          { "pattern": "#/**", "group": "unknown" }
         ]
       }
     ]
